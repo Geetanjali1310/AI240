@@ -1,0 +1,21 @@
+# 🚀 Space Mission Type Classification
+
+This project predicts whether a space mission is **manned** or **unmanned** using machine learning models.
+
+## 📌 Summary
+
+- **Type:** Classification  
+- **Dataset:** Global Space Exploration (2000–2025)  
+- **Target:** `Mission Type` (Manned / Unmanned)  
+- **Models Used:** Logistic Regression, Decision Tree, Naive Bayes  
+- **Best Model:** Decision Tree (slightly better F1-score)
+
+## 📂 Dataset
+
+- The dataset I have used is the "Global Space Exploration dataset(2000-2025)" 
+- 'Link for the dataset': https://www.kaggle.com/datasets/atharvasoundankar/global-space-exploration-dataset-2000-2025/data
+
+## 📊 Metrics
+
+Evaluated using Accuracy, Precision, Recall, and F1-score.  
+All models performed similarly (~49–50% accuracy).
